@@ -1,0 +1,19 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.profile_picture  {
+  position: relative;
+}
+
+.centered_text {
+  position: absolute;
+  top: 55%;
+  left: 18%;
+  /*text-align: center;
+  left: 40%;
+  transform: translate(-50%, -50%);*/
+  color: white;
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
