@@ -31,11 +31,15 @@
     
       <div class="icon-bar">
         <h3>
-          <a routerLink = "/photos">
+          <a routerLink = "/photos-page">
             <button (click)="onSelect" class="btn"> <i class="fa fa-camera fa-4x"></i> </button>
           </a>
-          <button (click)="onSelect" class="btn"> <i class="fa fa-code fa-4x"></i> </button>
-          <button (click)="onSelect" class="btn"> <i class="fa fa-video-camera fa-4x"></i> </button>
+          <a routerLink = "/code-page">
+            <button (click)="onSelect" class="btn"> <i class="fa fa-code fa-4x"></i> </button>
+          </a>
+          <a routerLink = "/videos-page">
+            <button (click)="onSelect" class="btn"> <i class="fa fa-video-camera fa-4x"></i> </button>
+          </a>
 
           <router-outlet></router-outlet>
         </h3>
