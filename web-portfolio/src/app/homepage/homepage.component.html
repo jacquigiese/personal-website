@@ -1,0 +1,57 @@
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="/static/fontawesome/fontawesome-all.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <div class="row">
+
+    <div class="col-12">
+      <div class="container-fluid profile_picture">
+        <div class="centered_image">
+          <h1>
+            Jacqui Giese
+          </h1>
+
+          <img 
+            class="img-fluid"
+            width="300"
+            src="https://drive.google.com/uc?id=1PK8SzJzbeUfSuvd-5fXJoGb5kWIMghMl"
+            alt="Picture of Jacqui Giese">
+
+          </div>
+
+      </div>
+    
+    </div>
+    
+      <div class="icon-bar">
+        <h3>
+          <a routerLink = "/photos">
+            <button (click)="onSelect" class="btn"> <i class="fa fa-camera fa-4x"></i> </button>
+          </a>
+          <button (click)="onSelect" class="btn"> <i class="fa fa-code fa-4x"></i> </button>
+          <button (click)="onSelect" class="btn"> <i class="fa fa-video-camera fa-4x"></i> </button>
+
+          <router-outlet></router-outlet>
+        </h3>
+      </div>
+
+      <div>
+        <h3>
+          About Me
+        </h3>
+
+
+        <h5>
+          I am a Harvey Mudd College sophomore that loves to dance and loves to code. I am a Computer Science major with a concentration in Psychology. I am passionate about creating user-friendly products that are pleasant to look at and fun to interact with. At the moment, I am most interested in UI/UX design but love learning more about different technologies and techniques to solve problems.
+        </h5>
+
+      </div>
+
+  </div>
+</body>
