@@ -13,46 +13,45 @@
     width: 90%;
     max-width: 600px;
     height: relative;
-  
     z-index: 0;
   }
   
-  h1 {font-size: 30px;}
+  h1 {font-size: 40px;}
   h2 {font-size: 24px;}
   h5 {font-size: 16px;}
   
   @media (max-width: screen-xs) {
-    h1{font-size: 1.2rem;}
+    h1{font-size: 2.5rem;}
     h2{font-size: 2.1rem;}
     h5{font-size: 1rem;}
   }
   
   @media (min-width: 576px) {
-    h1{font-size: 2.5rem;}
+    h1{font-size: 3.5rem;}
     h2{font-size: 2.3rem;}
     h5{font-size: 1.1rem;}
   }
   
   @media (min-width: 768px) {
-    h1{font-size: 3rem;}
+    h1{font-size: 4rem;}
     h2{font-size: 2.4rem;}
     h5{font-size: 1.15rem;}
   }
   
   @media (min-width: 992px) {
-    h1{font-size: 3rem;}
+    h1{font-size: 4rem;}
     h2{font-size: 2.5rem;}
     h5{font-size: 1.2rem;}
   }
   
   @media (min-width: 1200px) {
-    h1{font-size: 3rem;}
+    h1{font-size: 5rem;}
     h2{font-size: 2.5rem;}
     h5{font-size: 1.2rem;}
   }
   
   
-  
+  /* make more space between letters...*/
   .profile_picture h1 {
     position: absolute;
     top: 69%;
@@ -60,9 +59,9 @@
     transform: translate(-50%, -65%);
     color: white;
     /*font-family: "Times New Roman", Times, serif;*/
-    font-family: 'Cabin Sketch', cursive; 
-    font-size: 70px;
+    font-family: 'Covered by your grace', cursive; 
     z-index: 1;
+    
   }
   
   .icon-bar {
@@ -120,4 +119,5 @@
     padding-left: 20%;
     padding-right: 20%;
     line-height: 150%;
+    padding-bottom: 20%;
   }

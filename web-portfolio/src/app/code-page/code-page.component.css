@@ -1,3 +1,9 @@
 .col-8 {
     text-align: center;
 }
+
+/** this doesnt work... */
+app-code-canvas {
+    position: relative;
+    text-align: center;
+}

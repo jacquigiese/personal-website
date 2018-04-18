@@ -9,6 +9,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { PhotosPageComponent } from './photos-page/photos-page.component';
 import { CodePageComponent } from './code-page/code-page.component';
 import { VideosPageComponent } from './videos-page/videos-page.component';
+import { CodeCanvasComponent } from './code-canvas/code-canvas.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { VideosPageComponent } from './videos-page/videos-page.component';
     HomepageComponent,
     PhotosPageComponent,
     CodePageComponent,
-    VideosPageComponent
+    VideosPageComponent,
+    CodeCanvasComponent
   ],
   imports: [
     BrowserModule,
