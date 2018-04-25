@@ -4,7 +4,7 @@ p {
     padding-top: 3%;
 }
 
-/* h2 and h5 is extraneous... add in p and h3 tags*/
+/* h2 is extraneous... add in p tags*/
 h1 {font-size: 40px;}
 h2 {font-size: 24px;}
 h5 {font-size: 16px;}
@@ -37,4 +37,18 @@ h5{font-size: 1.2rem;}
 h1{font-size: 5rem;}
 h2{font-size: 2.5rem;}
 h5{font-size: 1.2rem;}
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    /*font-family: 'Covered by your grace', cursive; */
+}
+
+h5 {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
