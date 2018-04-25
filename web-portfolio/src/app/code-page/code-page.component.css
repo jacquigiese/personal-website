@@ -2,8 +2,6 @@
     text-align: center;
 }
 
-/** this doesnt work... */
-app-code-canvas {
-    position: relative;
-    text-align: center;
+.buttonanimate{
+    margin: 5rem;
 }

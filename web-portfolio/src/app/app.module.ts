@@ -9,8 +9,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { PhotosPageComponent } from './photos-page/photos-page.component';
 import { CodePageComponent } from './code-page/code-page.component';
 import { VideosPageComponent } from './videos-page/videos-page.component';
-import { CodeCanvasComponent } from './code-canvas/code-canvas.component';
-
+import { AnimateComponent } from './app-animate.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,7 @@ import { CodeCanvasComponent } from './code-canvas/code-canvas.component';
     PhotosPageComponent,
     CodePageComponent,
     VideosPageComponent,
-    CodeCanvasComponent
+    AnimateComponent
   ],
   imports: [
     BrowserModule,
