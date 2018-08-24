@@ -11,44 +11,32 @@
 </head>
 
 <body>
-  <div class="row">
-
-    <div class="col-12">
-      <div class="container-fluid profile_picture">
-        <div class="centered_image">
-          <h1>
-            Jacqui Giese
-          </h1>
-
-          <img 
-            class="img-fluid"
-            width="300"
-            src="https://drive.google.com/uc?id=1PK8SzJzbeUfSuvd-5fXJoGb5kWIMghMl"
-            alt="Picture of Jacqui Giese">
-
-          </div>
-
-      </div>
-    
+  <div class="container">
+    <div class="row">
+      <h1>Jacqui Giese</h1>
     </div>
-    <!-- this needs to stay a constant ratio height away from the picture... also needs to scale down with smaller screens-->
-      <div class="icon-bar">
-        <h3>
-          <a routerLink = "/photos-page">
-            <button (click)="onSelect" class="btn"> <i class="fa fa-camera fa-4x"></i> </button>
-          </a>
-          <a routerLink = "/code-page">
-            <button (click)="onSelect" class="btn"> <i class="fa fa-code fa-4x"></i> </button>
-          </a>
-          <a routerLink = "/videos-page">
-            <button (click)="onSelect" class="btn"> <i class="fa fa-video-camera fa-4x"></i> </button>
-          </a>
+    <div class="row icon-bar">
+        <a routerLink = "/photos-page">
+          <button (click)="onSelect" class="btn"> <i class="fa fa-camera fa-2x"></i> </button>
+        </a>
+        <a routerLink = "/code-page">
+          <button (click)="onSelect" class="btn"> <i class="fa fa-code fa-2x"></i> </button>
+        </a>
+        <a routerLink = "/videos-page">
+          <button (click)="onSelect" class="btn"> <i class="fa fa-video-camera fa-2x"></i> </button>
+        </a>
 
-          <router-outlet></router-outlet>
-        </h3>
-      </div>
+        <router-outlet></router-outlet>
+    </div>
+    
+    <div class="row profile_picture">
+      <img 
+        class="img-fluid"
+        src="https://drive.google.com/uc?id=1buRwJFv0SxebuBTO0LpvXL6Xs0-zN7Ry"
+        alt="Picture of Jacqui Giese">
+    </div>
 
-      <div class="container">
+    <div class="container">
         <div class="row">
           <h2>
               About Me
@@ -57,10 +45,12 @@
         
         <div class="row">
           <h5>
-            I am a Harvey Mudd College sophomore that loves to dance and loves to code. I am a Computer Science major with a concentration in Psychology. I am passionate about creating user-friendly products that are pleasant to look at and fun to interact with. At the moment, I am most interested in UI/UX design but love learning more about different technologies and techniques to solve problems.
+            I am a Harvey Mudd College junior that loves to code and dance. I am a Computer Science major with a concentration in Psychology. I am passionate about creating user-friendly products that are pleasant to look at and fun to interact with. I love learning more about different technologies and techniques to solve problems.
           </h5>
         </div>
       </div>
 
   </div>
+  
 </body>
+

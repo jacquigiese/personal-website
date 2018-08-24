@@ -1,19 +1,29 @@
+body{
+  height: 100%;
+  background-image:  url("white_black.jpg"); 
+  background-attachment: local;
+}
 
-.profile_picture  {
+  .row h1 {
     width: 100%;
-    height: 400px;
+    height: 120px;
     max-height: 7000px;
     overflow: visible;
-    margin: 0;
-    position: relative;
+    margin-top: 30px;
     text-align: center;
+    left: 50%;
+    color: white;
+    font-family: 'Covered by your grace', cursive; 
+    z-index: 2;
+    letter-spacing: 0.06em;
+    font-size: 80px
   }
-  
+
   .profile_picture img {
-    width: 90%;
-    max-width: 600px;
-    height: relative;
-    z-index: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    z-index: 1;
   }
   
   h1 {font-size: 40px;}
@@ -51,59 +61,33 @@
   }
   
   
-  /* make more space between letters...*/
-  .profile_picture h1 {
-    position: absolute;
-    top: 69%;
-    left: 50%;
-    transform: translate(-50%, -65%);
-    color: white;
-    /*font-family: "Times New Roman", Times, serif;*/
-    font-family: 'Covered by your grace', cursive; 
-    z-index: 1;
-    letter-spacing: 0.06em;
-    
-  }
   
   .icon-bar {
     width: 100%;
-    background-color: white;
-    overflow: auto;
-    text-align: center;
-    padding: 70px;
+    margin-bottom: 50px;
+  }
+
+  .icon-bar a {
+    float: left;
+    text-align: center; 
+    width: 20%; 
+    height: 40px;
+    width: 33%;
+    border: none;
   }
   
-  .fa-camera {
-    position: relative;
-    left: 0%;
-  }
-  
-  .fa-code {
-    right: 10%;
-  }
-  
-  .fa-video-camera {
-    right: 10%;
-  }
   
   .btn {
-  
-    height: 80px;
-    width: 100px;
-    color: grey;
-    background: white;
-    border: none;
-  
+    width: 100%;
+    background: grey;
+    color: white;
   }
   
   .btn:hover {
-    color: white;
-    height: 80px;
-    width: 100px;
-    background: grey;
-  
-
-
+    color: grey;
+    height: 47px;
+    width: 100%;
+    background: white;
     -webkit-transition-duration: 0.5s; /* Safari */
     transition-duration: 0.1s;
   }
@@ -112,13 +96,12 @@
     width: 100%;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
   }
 
   h5 {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
     line-height: 150%;
     padding-bottom: 20%;
   }
